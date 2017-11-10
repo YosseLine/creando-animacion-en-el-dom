@@ -2,17 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  }
+
+div#container-div{
+  width: 350px;
+  height: 270px;
+  margin: 30px;
 }
-.board{
-  margin: 100px auto 0;
-  border-collapse: separate;
-    border-spacing: 30px;
+
+div.div-circle{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px dashed black;
+  margin-left: 10px;
+  margin-top: 10px;
 }
-.board td{
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  text-align: center;
-  font-size: 50px;
-  font-family: cursive;
+
+.divergent-circle{
+  background-color: red;
 }
